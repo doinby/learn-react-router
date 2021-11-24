@@ -9,3 +9,7 @@
   src: local('MinigapBold'), url('./fonts/MinigapBold.woff') format('woff'),
     url('./fonts/MinigapBold.woff2') format('woff2');
 }
+
+body {
+  font-family: 'MinigapLight';
+}

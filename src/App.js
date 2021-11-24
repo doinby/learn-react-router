@@ -1,15 +1,13 @@
-import './fonts/MinigapLight.woff';
-import './fonts/MinigapLight.woff2';
-import {Button, ButtonBase} from '@mui/material';
+import {Button} from '@mui/material';
 import {theme} from './theme';
-import './App.css';
 import {ThemeProvider} from '@emotion/react';
-import {Box} from '@mui/system';
+import './App.css';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <Button variant='contained'>Contained</Button>
+      <p>App Works!</p>
     </ThemeProvider>
   );
 }
