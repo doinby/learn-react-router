@@ -21,6 +21,15 @@ export const theme = createTheme({
   },
   typography: {
     fontFamily: 'MinigapLight',
+    h1: {
+      fontFamily: 'MinigapBold',
+    },
+    h2: {
+      fontFamily: 'MinigapBold',
+    },
+    h3: {
+      fontFamily: 'MinigapBold',
+    },
   },
   components: {
     MuiCssBaseline: {
