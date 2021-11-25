@@ -1,0 +1,15 @@
+@import '../../App.scss';
+
+.MuiList-root {
+  width: 70%;
+
+  .MuiListItem-root {
+    @include flex(row);
+    justify-content: space-between;
+    padding-left: 0;
+
+    .MuiTypography-h3 {
+      font-size: 1.25rem;
+    }
+  }
+}

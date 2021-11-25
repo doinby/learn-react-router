@@ -11,7 +11,7 @@ export default function Header() {
       <Link to='/' component={RouterLink} underline='hover'>
         Home
       </Link>
-      <Link to='Services' component={RouterLink} underline='hover'>
+      <Link to='/services' component={RouterLink} underline='hover'>
         Services
       </Link>
     </header>
