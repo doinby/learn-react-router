@@ -8,6 +8,7 @@ import './App.css';
 import Header from './components/Header';
 import Home from './pages/Home';
 import ServicesList from './pages/services/ServicesList';
+import ServiceDetail from './pages/services/ServiceDetail';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/services' element={<ServicesList />} />
+        <Route exact path='/services/:serviceId' element={<ServiceDetail />} />
       </Routes>
     </ThemeProvider>
   );
