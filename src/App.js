@@ -7,7 +7,7 @@ import {ThemeProvider} from '@emotion/react';
 import './App.css';
 import Header from './components/Header';
 import Home from './pages/Home';
-import Services from './pages/Services';
+import ServicesList from './pages/services/ServicesList';
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
 
       <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route exact path='/services' element={<Services />} />
+        <Route exact path='/services' element={<ServicesList />} />
       </Routes>
     </ThemeProvider>
   );

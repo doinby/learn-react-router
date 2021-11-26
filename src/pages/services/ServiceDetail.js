@@ -1,9 +1,10 @@
-import React from "react"
+import {Typography} from '@mui/material';
+import React from 'react';
 
-function ServiceDetail(props) {
-    return (
-        <h1>Service Detail Page</h1>
-    )
+export default function ServiceDetail() {
+  return (
+    <div>
+      <Typography variant='h2'>Service Detail</Typography>
+    </div>
+  );
 }
-
-export default ServiceDetail

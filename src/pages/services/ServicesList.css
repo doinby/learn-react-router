@@ -1,0 +1,19 @@
+.MuiList-root {
+  width: 70%;
+}
+.MuiList-root .MuiListItem-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 0;
+}
+.MuiList-root .MuiListItem-root .MuiTypography-h3 {
+  font-size: 1.25rem;
+}
